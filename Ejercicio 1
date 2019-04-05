@@ -1,0 +1,16 @@
+using System;
+namespace ejercicio_1_is
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numero;
+            int multiplicacion;
+            Console.WriteLine("Ingrese un numero:");
+            numero = Convert.ToInt32(Console.ReadLine());
+            multiplicacion = numero * 2;
+            Console.WriteLine(" el doble de {0} es {2} :", numero, 2, multiplicacion);
+        }
+    }
+}
