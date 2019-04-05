@@ -1,0 +1,17 @@
+using System;
+namespace ejercicio_2_is
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int edad;
+            int suma;
+            Console.WriteLine("ingrese su edad:");
+            edad = Convert.ToInt32(Console.ReadLine());
+            suma = edad + 23;
+            Console.WriteLine(" Dentro de {1} años usted tendra {2} años.", edad, 23, suma);
+        }
+    }
+ }
+
