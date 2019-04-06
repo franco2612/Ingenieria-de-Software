@@ -1,0 +1,19 @@
+using System;
+namespace ejercicio_14_is
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numero = 10;
+            int numeros = 5;
+            int suma;
+            Console.WriteLine("Ingrese el los diez pares de zapatillas disponible:");
+            numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(" Por favor ingrese los cinco pares nuevos de zapatillas que entraron al local :");
+            numeros = Convert.ToInt32(Console.ReadLine());
+            suma = 10 + 5;
+            Console.WriteLine(" Usted dispone de {2} pares de zapatillas. ", numero, 5, suma);
+        }
+    }
+}
