@@ -11,7 +11,7 @@ namespace ejercicio_4_is
             Console.WriteLine("Ingrese un precio:");
             precio = Convert.ToDouble(Console.ReadLine());
             total = precio *9 /100;
-            Console.WriteLine("El  Descuento es :");
+            Console.WriteLine("Descuento realizado :");
             Console.WriteLine(total);
             
         }
