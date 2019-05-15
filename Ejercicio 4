@@ -1,0 +1,19 @@
+using System;
+
+namespace ejercicio_4_is
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double precio;
+            double total;
+            Console.WriteLine("Ingrese un precio:");
+            precio = Convert.ToDouble(Console.ReadLine());
+            total = precio *9 /100;
+            Console.WriteLine("El  Descuento es :");
+            Console.WriteLine(total);
+            
+        }
+    }
+}
