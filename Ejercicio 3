@@ -1,0 +1,21 @@
+using System;
+namespace ejercicio3is
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double iva;
+            double precio;
+            double total;
+            Console.WriteLine("Ingrese un precio:");
+            precio = Convert.ToDouble(Console.ReadLine());
+            iva = precio * 0.21;
+            Console.WriteLine("Cantidad del iva:");
+            Console.WriteLine(iva);           
+            Console.WriteLine("El total del precio con iva es:");
+            total = precio + iva;
+            Console.WriteLine(total);
+        }
+    }
+}
