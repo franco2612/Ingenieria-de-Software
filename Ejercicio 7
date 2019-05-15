@@ -10,10 +10,8 @@ namespace Pares_e_impares_is
             numeros = Convert.ToInt32(Console.ReadLine());                       
                 if (numeros %2==0)
                     Console.WriteLine("El numero ingresado es par.");
-
                 else
-                    Console.WriteLine("El numero ingresado es impar.");
-            
+                    Console.WriteLine("El numero ingresado es impar.");           
         }
     }
 }
